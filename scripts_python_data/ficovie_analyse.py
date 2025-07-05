@@ -1,3 +1,15 @@
+
+# =====================================================================================
+# 📊 SCRIPT : Analyse des données FICOVIE - Contrats d'assurance vie
+# 🗂️ Chargement des données depuis Excel et nettoyage des doublons/incohérences
+# 📈 Visualisations multiples avec Seaborn, Matplotlib et Plotly (2D, 3D, interactives)
+# 🧠 Analyse des montants versés, durées, compagnies, statuts et souscripteurs
+# 🗃️ Génération automatique d’un rapport PDF professionnel avec FPDF
+# 💡 Objectif : offrir une vue claire, synthétique et visuelle des contrats FICOVIE
+# 💾 Sauvegarde des graphiques en PNG/HTML et export des données en Excel
+# =====================================================================================
+
+
 import pandas as pd
 
 import datetime as DT
