@@ -308,7 +308,7 @@ sbn.heatmap(DF.corr(numeric_only=True), annot=True,cmap="coolwarm")     # cmap= 
 plt.title(" \n corrélation entre les variables numériques")
 # 1 corrélation parfaite positive / -1 corrélation parfaite negative / 0 pas de corrélation 
 #plt.show()
-plt.savefig(os.path.join(GRAPH_DIR, "nom_du_graphique.png"))  # changer le nom pour chaque graphique
+plt.savefig(os.path.join(GRAPH_DIR, "corrélation_entre_les_variables_numériques.png"))  # changer le nom pour chaque graphique
 plt.close()
 
 
@@ -356,7 +356,7 @@ plt.title(" Boxplot de montant versé ")
 plt.ylabel(" montant versé")
 plt.tight_layout()
 #plt.show()
-plt.savefig(os.path.join(GRAPH_DIR, "nom_du_graphique.png"))  # changer le nom pour chaque graphique
+plt.savefig(os.path.join(GRAPH_DIR, "Boxplot_de_montant_versé.png"))  # changer le nom pour chaque graphique
 plt.close()
 
 plt.figure(figsize=(10,8))
